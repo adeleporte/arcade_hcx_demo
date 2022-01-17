@@ -1,0 +1,71 @@
+{
+    "author": "adeleporte@vmware.com",
+    "description": "HCX Setup (Site Pairing, profiles and Service Mesh",
+    "title": "HCX setup",
+    "logo": "https://github.com/adeleporte/vmware-arcade/my_first_automation_playbook/logo.png",
+    "type": "hcx",
+    "runner": "amimran/terraform-runner",
+    "tags": ["hcx", "terraform"],
+    "actions": [
+        {
+            "command": "terraform init -no-color",
+            "name": "INIT"
+        },
+        {
+            "command": "terraform plan -no-color",
+            "name":"PLAN"
+        },
+        {
+            "command": "terraform apply --auto-approve -no-color",
+            "name": "APPLY"
+        },
+        {
+            "command": "terraform destroy --auto-approve -no-color",
+            "name": "DESTROY"
+        }
+    ],
+    "variables": [
+        {
+            "name": "HCX Manager",
+            "description": "TF_VAR_hcx_manager",
+            "default": "",
+            "type": "INPUT",
+            "reqired": true
+        },
+        {
+            "name": "HCX Manager Username",
+            "description": "TF_VAR_hcx_username",
+            "default": "",
+            "type": "INPUT",
+            "reqired": true
+        },
+        {
+            "name": "HCX Manager Password",
+            "description": "TF_VAR_hcx_password",
+            "default": "",
+            "type": "INPUT",
+            "reqired": true
+        },
+        {
+            "name": "Cloud URL",
+            "description": "TF_VAR_cloud_url",
+            "default": "",
+            "type": "INPUT",
+            "reqired": true
+        },
+        {
+            "name": "Cloud Username",
+            "description": "TF_VAR_cloud_username",
+            "default": "",
+            "type": "INPUT",
+            "reqired": true
+        },
+        {
+            "name": "Cloud Password",
+            "description": "TF_VAR_cloud_password",
+            "default": "",
+            "type": "INPUT",
+            "reqired": true
+        }
+    ]
+}
