@@ -4,7 +4,6 @@
     "title": "HCX setup",
     "template": "https://github.com/adeleporte/arcade_hcx_demo.git",
     "documentation": "https://github.com/adeleporte/arcade_hcx_demo",
-    "logo": "https://github.com/adeleporte/vmware-arcade/my_first_automation_playbook/logo.png",
     "type": "hcx",
     "runner": "amimran/terraform-runner",
     "tags": ["hcx", "terraform"],
