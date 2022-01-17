@@ -32,42 +32,42 @@
             "description": "TF_VAR_hcx_manager",
             "default": "",
             "type": "INPUT",
-            "reqired": true
+            "required": true
         },
         {
             "name": "HCX Manager Username",
             "description": "TF_VAR_hcx_username",
             "default": "",
             "type": "INPUT",
-            "reqired": true
+            "required": true
         },
         {
             "name": "HCX Manager Password",
             "description": "TF_VAR_hcx_password",
             "default": "",
             "type": "INPUT",
-            "reqired": true
+            "required": true
         },
         {
             "name": "Cloud URL",
             "description": "TF_VAR_cloud_url",
             "default": "",
             "type": "INPUT",
-            "reqired": true
+            "required": true
         },
         {
             "name": "Cloud Username",
             "description": "TF_VAR_cloud_username",
             "default": "",
             "type": "INPUT",
-            "reqired": true
+            "required": true
         },
         {
             "name": "Cloud Password",
             "description": "TF_VAR_cloud_password",
             "default": "",
             "type": "INPUT",
-            "reqired": true
+            "required": true
         }
     ]
 }
