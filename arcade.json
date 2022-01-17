@@ -8,6 +8,7 @@
     "type": "hcx",
     "runner": "amimran/terraform-runner",
     "tags": ["hcx", "terraform"],
+    "arcade_json": "https://raw.githubusercontent.com/adeleporte/arcade_hcx_demo/main/arcade.json",
     "actions": [
         {
             "command": "terraform init -no-color",
