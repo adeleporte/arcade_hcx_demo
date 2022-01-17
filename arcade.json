@@ -2,6 +2,7 @@
     "author": "adeleporte@vmware.com",
     "description": "HCX Setup (Site Pairing, profiles and Service Mesh",
     "title": "HCX setup",
+    "template": "https://github.com/adeleporte/arcade_hcx_demo.git",
     "logo": "https://github.com/adeleporte/vmware-arcade/my_first_automation_playbook/logo.png",
     "type": "hcx",
     "runner": "amimran/terraform-runner",
